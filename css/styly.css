@@ -1,0 +1,148 @@
+/* CSS Document */
+body {
+  /* Typ pï¿½sma bude Arial nebo sans-serif */
+  font-family: Arial, Helvetica, sans-serif;
+  /* Barva pozadï¿½ bude svï¿½tle ï¿½edï¿½ */
+  background-color: lightgray;
+  text-align: center;
+}
+
+/* Selektor pro oddï¿½l oznaï¿½enï¿½ ID obal */ 
+  #obal{
+    max-width: 960px;
+    margin: auto;
+    border: solid 1px;
+    background-color: white;
+    color: #333;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* Maximï¿½lnï¿½ ï¿½ï¿½ï¿½ka 960 px */
+  /* Nastav okraje tak, aby byl blok obal na strï¿½nce vycentrovï¿½n */
+  /* Ohraniï¿½enï¿½ - plnï¿½ ï¿½edï¿½ ï¿½ï¿½ra o tlouï¿½ï¿½ce 1 pixel  */
+  /* Vnitï¿½nï¿½ odsazenï¿½ - 20 pixelï¿½ */
+  /* Bï¿½lï¿½ barva pozadï¿½ */
+  /* Barva textu - tmavï¿½ ï¿½edï¿½ odstï¿½n, ï¿½estnï¿½ctkovï¿½ hodnoty 3 */
+
+/* Selektor pro znaï¿½ku nav */
+nav {
+  text-align: center;
+  background-color: #222;
+  padding: 20px;
+  font-size: 1.1em;
+  color: lightgray;
+  max-width: 960px;
+  margin: auto;
+  text-align: left !important;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+/* Pro vï¿½echny odkazy v bloku navigace */ 
+nav a{
+  padding: 19px;
+  /* Odkazy nebudou podtrï¿½eny */
+  text-decoration: none;
+  color: lightgray;
+}
+
+/* Pro vï¿½echny odkazy v bloku navigace pï¿½i pï¿½ejetï¿½ kurzoru myï¿½i */ 
+nav a:hover{
+  color: white;
+  background-color: rgb(0,153,204);
+}
+
+h1 {
+  /* Nadpis bude vycentrovï¿½n */
+  text-align: center;
+  /* Velikost nadpisu bude dvojnï¿½sobnï¿½ vzhledem k zï¿½kladnï¿½ velikosti pï¿½sma */
+  font-size: 200%;
+  /* Nadpis bude tuï¿½nï¿½ */
+  font-weight: bold;
+  /* Barva nadpisu bude totoï¿½nï¿½ s barvou zvï¿½raznï¿½nï¿½ho odkazu */
+  color: rgb(0,153,204);;
+  /* Nadpis bude vypsï¿½n velkï¿½mi pï¿½smeny */
+  text-transform: capitalize;
+  /* Vï¿½ï¿½ka ï¿½ï¿½dku nadpisu bude 2em */
+  line-height: 2em;
+}
+
+/* Platï¿½ pro nadpisy h2 i h3 */ 
+h1, h2{
+  font-weight: 200; 
+  line-height: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+  color: rgb(102,153,0);
+  text-align: left;
+}
+
+h3 { 
+  font-size: 1.2em;
+  text-decoration: #333 dotted;
+  text-align: left;
+  /* Nadpisy budou podtrï¿½eny tenkou teï¿½kovanou ï¿½arou, jejï¿½ barva bude shodnï¿½ s barvou pï¿½sma */ 
+}
+
+p, li {
+  line-height: 1.5em;
+  margin: 1em 0 1em 0;
+  /* Hornï¿½ a spodnï¿½ okraj odstavcï¿½ i odrï¿½ek budou odsazeny o hodnotu 1em */
+}
+
+p {
+  /* Text odstavcï¿½ bude zarovnï¿½n do bloku */
+  text-align: left;
+}
+
+li {
+  list-style-type: disc;
+  /* Nastavte styl odrï¿½ek tak, aby odpovï¿½dal pï¿½edloze (ï¿½tvercovï¿½ odrï¿½ka) */
+  list-style-position: outside;
+  margin-left: 20px;
+}
+
+/* Nastavte pravidlo pro všechny tuènì a modøe zvýraznìné texty v odrážkách. */
+li>b{
+
+}
+.poznamka{
+  border-left: solid gray 10px;
+  padding-left: 50px;
+  font-size: 90%;
+  font-style: italic;
+}
+/* Nastavte pravidlo pro všechny odstavce-poznámky: 
+    * na levém okraji bude šedé ohranièení 10px silné
+    * text bude zleva odsazen o 50 pixelù
+    * použitý font bude o 10% menší než základní písmo
+    * písmo bude naklonìné (kurzíva)
+*/
+
+footer {
+  color: gray;
+  margin: 10px auto;
+  /* Zï¿½patï¿½ bude zarovnï¿½no na stï¿½ed */
+  text-align: center;
+  font-size: 80%;
+}
+
+em{
+  color: rgb(0,153,204);
+  font-weight: bold;
+}
+
+.left{
+  text-align: left;
+}
+
+strong {
+  font-weight: bold;
+}
+
+
+/* Nastavte pravidla pro znaï¿½ky vloï¿½enï¿½ do textu ï¿½vodnï¿½ho odstavce,
+   aby koneï¿½nï¿½ vzheld textu odpovï¿½dal pï¿½edloze. */
+
