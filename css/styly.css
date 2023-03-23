@@ -1,13 +1,13 @@
 /* CSS Document */
 body {
-  /* Typ p�sma bude Arial nebo sans-serif */
+  /* Typ pďż˝sma bude Arial nebo sans-serif */
   font-family: Arial, Helvetica, sans-serif;
-  /* Barva pozad� bude sv�tle �ed� */
+  /* Barva pozadďż˝ bude svďż˝tle ďż˝edďż˝ */
   background-color: lightgray;
   text-align: center;
 }
 
-/* Selektor pro odd�l ozna�en� ID obal */ 
+/* Selektor pro oddďż˝l oznaďż˝enďż˝ ID obal */ 
   #obal{
     max-width: 960px;
     margin: auto;
@@ -17,14 +17,14 @@ body {
     padding-left: 10px;
     padding-right: 10px;
   }
-  /* Maxim�ln� ���ka 960 px */
-  /* Nastav okraje tak, aby byl blok obal na str�nce vycentrov�n */
-  /* Ohrani�en� - pln� �ed� ��ra o tlou��ce 1 pixel  */
-  /* Vnit�n� odsazen� - 20 pixel� */
-  /* B�l� barva pozad� */
-  /* Barva textu - tmav� �ed� odst�n, �estn�ctkov� hodnoty 3 */
+  /* Maximďż˝lnďż˝ ďż˝ďż˝ďż˝ka 960 px */
+  /* Nastav okraje tak, aby byl blok obal na strďż˝nce vycentrovďż˝n */
+  /* Ohraniďż˝enďż˝ - plnďż˝ ďż˝edďż˝ ďż˝ďż˝ra o tlouďż˝ďż˝ce 1 pixel  */
+  /* Vnitďż˝nďż˝ odsazenďż˝ - 20 pixelďż˝ */
+  /* Bďż˝lďż˝ barva pozadďż˝ */
+  /* Barva textu - tmavďż˝ ďż˝edďż˝ odstďż˝n, ďż˝estnďż˝ctkovďż˝ hodnoty 3 */
 
-/* Selektor pro zna�ku nav */
+/* Selektor pro znaďż˝ku nav */
 nav {
   text-align: center;
   background-color: #222;
@@ -38,36 +38,36 @@ nav {
   margin-right: -10px;
 }
 
-/* Pro v�echny odkazy v bloku navigace */ 
+/* Pro vďż˝echny odkazy v bloku navigace */ 
 nav a{
   padding: 19px;
-  /* Odkazy nebudou podtr�eny */
+  /* Odkazy nebudou podtrďż˝eny */
   text-decoration: none;
   color: lightgray;
 }
 
-/* Pro v�echny odkazy v bloku navigace p�i p�ejet� kurzoru my�i */ 
+/* Pro vďż˝echny odkazy v bloku navigace pďż˝i pďż˝ejetďż˝ kurzoru myďż˝i */ 
 nav a:hover{
   color: white;
   background-color: rgb(0,153,204);
 }
 
 h1 {
-  /* Nadpis bude vycentrov�n */
+  /* Nadpis bude vycentrovďż˝n */
   text-align: center;
-  /* Velikost nadpisu bude dvojn�sobn� vzhledem k z�kladn� velikosti p�sma */
+  /* Velikost nadpisu bude dvojnďż˝sobnďż˝ vzhledem k zďż˝kladnďż˝ velikosti pďż˝sma */
   font-size: 200%;
-  /* Nadpis bude tu�n� */
+  /* Nadpis bude tuďż˝nďż˝ */
   font-weight: bold;
-  /* Barva nadpisu bude toto�n� s barvou zv�razn�n�ho odkazu */
+  /* Barva nadpisu bude totoďż˝nďż˝ s barvou zvďż˝raznďż˝nďż˝ho odkazu */
   color: rgb(0,153,204);;
-  /* Nadpis bude vyps�n velk�mi p�smeny */
+  /* Nadpis bude vypsďż˝n velkďż˝mi pďż˝smeny */
   text-transform: capitalize;
-  /* V��ka ��dku nadpisu bude 2em */
+  /* Vďż˝ďż˝ka ďż˝ďż˝dku nadpisu bude 2em */
   line-height: 2em;
 }
 
-/* Plat� pro nadpisy h2 i h3 */ 
+/* Platďż˝ pro nadpisy h2 i h3 */ 
 h1, h2{
   font-weight: 200; 
   line-height: 2em;
@@ -83,28 +83,28 @@ h3 {
   font-size: 1.2em;
   text-decoration: #333 dotted;
   text-align: left;
-  /* Nadpisy budou podtr�eny tenkou te�kovanou �arou, jej� barva bude shodn� s barvou p�sma */ 
+  /* Nadpisy budou podtrďż˝eny tenkou teďż˝kovanou ďż˝arou, jejďż˝ barva bude shodnďż˝ s barvou pďż˝sma */ 
 }
 
 p, li {
   line-height: 1.5em;
   margin: 1em 0 1em 0;
-  /* Horn� a spodn� okraj odstavc� i odr�ek budou odsazeny o hodnotu 1em */
+  /* Hornďż˝ a spodnďż˝ okraj odstavcďż˝ i odrďż˝ek budou odsazeny o hodnotu 1em */
 }
 
 p {
-  /* Text odstavc� bude zarovn�n do bloku */
+  /* Text odstavcďż˝ bude zarovnďż˝n do bloku */
   text-align: left;
 }
 
 li {
   list-style-type: disc;
-  /* Nastavte styl odr�ek tak, aby odpov�dal p�edloze (�tvercov� odr�ka) */
+  /* Nastavte styl odrďż˝ek tak, aby odpovďż˝dal pďż˝edloze (ďż˝tvercovďż˝ odrďż˝ka) */
   list-style-position: outside;
   margin-left: 20px;
 }
 
-/* Nastavte pravidlo pro v�echny tu�n� a mod�e zv�razn�n� texty v odr�k�ch. */
+/* Nastavte pravidlo pro všechny tučně a modře zvýrazněné texty v odrážkách. */
 li>b{
 
 }
@@ -114,17 +114,17 @@ li>b{
   font-size: 90%;
   font-style: italic;
 }
-/* Nastavte pravidlo pro v�echny odstavce-pozn�mky: 
-    * na lev�m okraji bude �ed� ohrani�en� 10px siln�
-    * text bude zleva odsazen o 50 pixel�
-    * pou�it� font bude o 10% men�� ne� z�kladn� p�smo
-    * p�smo bude naklon�n� (kurz�va)
+/* Nastavte pravidlo pro všechny odstavce-poznámky: 
+    * na levém okraji bude šedé ohraničení 10px silné
+    * text bude zleva odsazen o 50 pixelů
+    * použitý font bude o 10% menší než základní písmo
+    * písmo bude nakloněné (kurzíva)
 */
 
 footer {
   color: gray;
   margin: 10px auto;
-  /* Z�pat� bude zarovn�no na st�ed */
+  /* Zďż˝patďż˝ bude zarovnďż˝no na stďż˝ed */
   text-align: center;
   font-size: 80%;
 }
@@ -143,9 +143,9 @@ strong {
 }
 mark{
   color: white;
-  background-color: rgb(131, 213, 8);
+  background-color: rgb(102,153,0);
 }
 
-/* Nastavte pravidla pro zna�ky vlo�en� do textu �vodn�ho odstavce,
-   aby kone�n� vzheld textu odpov�dal p�edloze. */
+/* Nastavte pravidla pro znaďż˝ky vloďż˝enďż˝ do textu ďż˝vodnďż˝ho odstavce,
+   aby koneďż˝nďż˝ vzheld textu odpovďż˝dal pďż˝edloze. */
 
